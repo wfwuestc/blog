@@ -1,46 +1,46 @@
-## ʲô��bash
-bash �� ��Bourne Again Shell���ļ�ƣ�Ҫ�˽�ʲô��bash������Ҫ֪��shell��ʲô��
-- Ӳ�����ں���shell
-����Ҫʹ�ü�������벻������ϵͳ�����ںˣ�Kernel�������þ��ǿ���Ӳ��ִ�����������Ǳ���ͨ��"shell"��������������ں�ͨ�ţ����ں˿���Ӳ������������Ҫ�Ĳ�����
-- sh �� bash
-��һ�����е�shell��Steven Bourne��չ������Ϊ�˼��������Գ�ΪBourne shell�����sh����bash����Bourne shell�ļ�ǿ�棬Ҳ��Linux��Ĭ�ϵ�shell��
+## 什么是bash
+bash 是 “Bourne Again Shell”的简称，要了解什么是bash，首先要知道shell是什么。
+- 硬件，内核与shell
+我们要使用计算机，离不开操作系统，而内核（Kernel）的作用就是控制硬件执行相关命令。我们必需通过"shell"将输入的命令与内核通信，让内核控制硬件进行我们想要的操作。
+- sh 与 bash
+第一个流行的shell是Steven Bourne发展出来，为了纪念他所以称为Bourne shell，简称sh。而bash则是Bourne shell的加强版，也是Linux下默认的shell。
 
-## ��ظ���
-- / ��ʾ��Ŀ¼
-- ~ ��ʾ�û������ļ���
-- . ��ʾ��ǰĿ¼
--  .. ��ʾ��һ��Ŀ¼
-- ·��
-  - ����·�����ԡ�/����ͷ�������ļ����ļ�������λ�õ�·����
-  - ���·���������·����ԣ�ֻ�а������ֵ�ַ����ʾ������λ�õ����·����
-- �ڵ㣺�ļ������ļ������ڽڵ�
+## 相关概念
+- / 表示根目录
+- ~ 表示用户的主文件夹
+- . 表示当前目录
+-  .. 表示上一级目录
+- 路径
+  - 绝对路径：以‘/’开头，包含文件或文件夹完整位置的路径。
+  - 相对路径：与绝对路径相对，只有包含部分地址，表示你所在位置的相对路径。
+- 节点：文件夹与文件都属于节点
 
-## ����ʹ��
-���������ʽһ��Ϊ��command [-options] parameter1 parameter2 ...
-����commandΪҪִ�е����-optionsΪ�������ò�����ͨ��ǰ������-����ʹ�ò���ȫ��ʱ�á�--����parameter1 parameter2Ϊ���������������ʹ�ÿո����֡�
-- �ļ���Ŀ¼����
+## 命令使用
+命令输入格式一般为：command [-options] parameter1 parameter2 ...
+其中command为要执行的命令；-options为命令设置参数，通常前面会带“-”，使用参数全名时用“--”；parameter1 parameter2为命令参数，参数间使用空格区分。
+- 文件、目录操作
 ```
-  ls �鿴�ļ���Ŀ¼
-  cd ���뵽��Ӧ��Ŀ¼
-  cp a b ��a���Ƶ�b
-  rm �Ƴ��ļ�����Ҫ�Ƴ��ļ��У�Ҫ���ϡ�-r������
-  mv ����/������
-  pwd ��ʾ��ǰĿ¼
-  chmod �ı��ļ����ļ��е����Ȩ��
+  ls 查看文件与目录
+  cd 进入到相应的目录
+  cp a b 将a复制到b
+  rm 移除文件，如要移除文件夹，要加上‘-r’参数
+  mv 剪切/重命名
+  pwd 显示当前目录
+  chmod 改变文件或文件夹的相关权限
 ```
-- ��ȡ����
-����֪����������ʹ��ʱ�����Բ������µķ�����
-1.man command ��ѯ�����ֲ�
-2.command -h��command --help ��ѯ����
-3.[Explainshell](https://www.explainshell.com/>) �ɲ�ѯbash�������վ��������������
+- 获取帮助
+当不知道命令该如何使用时，可以采用以下的方法：
+1.man command 查询命令手册
+2.command -h、command --help 查询帮助
+3.[Explainshell](https://www.explainshell.com/>) 可查询bash命令的网站，解释清晰明了
 
-## ʹ�ü���
-1. �����Ϸ�����ܹ��л���һ��ִ�е�����
-2. !! ֱ��ʹ����һ������
-3. x; y��x&& y ,ͬʱִ������������е�һ������ִ�гɹ���������� (&&)�Ż�ִ�еڶ�������
-4. ʹ��'\'���Իس�������д����
+## 使用技巧
+1. 按向上方向键能够切换上一个执行的命令
+2. !! 直接使用上一个命令
+3. x; y与x&& y ,同时执行两个命令，其中第一个命令执行成功，与操作符 (&&)才会执行第二个命令
+4. 使用'\'可以回车换行续写命令
 
-## ע������
-1. __��Զ��Ҫִ�� rm -rf /__
-2. ע��ո�����
-3. ע������Ĵ�Сд
+## 注意事项
+1. __永远不要执行 rm -rf /__
+2. 注意空格数量
+3. 注意参数的大小写
