@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>html表单练习</title>
+  <style>
+    *{
+      border: 1px solid;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <div class="name">
+      <label for="name">姓名：</label>
+      <input type="text" name="name" placeholder="请输入姓名" id="name">
+    </div>
+    
+    <div class="password">
+      <label for="password">密码：</label>
+      <input type="password" name="password" placeholder="请输入密码" id="password">
+    </div>
+    
+    <div class="sex">
+      <label>性别：</label>
+      <input type="radio" name="sex" value="man" checked>男
+      <input type="radio" name="sex" value="woman">女
+    </div>
+    
+    <div class="game">
+      <label>喜欢的游戏：</label>
+      <input type="checkbox" name="game" value="GTA5">三男一狗
+      <input type="checkbox" name="game" value="DOTA2">刀塔2
+      <input type="checkbox" name="game" value="Factrio">异星工厂
+      <label for="game">其它：</label>
+      <input type="text" name="game" id="game" value="无">
+    </div>
+    
+    <div class="comment">
+      <label for="comment">还有啥想说的：</label>
+      <textarea name="comment" id="comment" cols="30" rows="10">想说就说</textarea>
+      <input type="button" name = "test" value="点我">
+    </div>
+    <div class="function">
+      <input type="reset">
+      <input type="submit">
+    </div>
+    
+    
+  </form>
+</body>
+</html>
