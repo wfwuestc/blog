@@ -1,0 +1,16 @@
+header {
+    height: 60px;
+}
+.bar {
+    border:1px solid;
+    margin: 10px;
+    display: inline-block;
+}
+.nav {
+    border:1px solid;
+    float: right;
+}
+
+.nav li {
+    float: left;
+}
