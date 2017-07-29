@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb105b49-ae21-4943-8e76-9f81df9e8eb9" name="Default" comment="complete first page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mission 15/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mission 15/.idea/workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mission 15/.idea/mission 15.iml" afterPath="$PROJECT_DIR$/.idea/blog.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mission 15/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mission 15/index.html" afterPath="$PROJECT_DIR$/mission 15/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mission 15/main.css" afterPath="$PROJECT_DIR$/mission 15/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,7 +18,18 @@
     <favorites_list name="blog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mission 15/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="352" column="23" lean-forward="false" selection-start-line="352" selection-start-column="23" selection-end-line="352" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -62,7 +63,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="532" />
     <option name="y" value="209" />
     <option name="width" value="1208" />
@@ -146,7 +147,7 @@
       <workItem from="1501252411551" duration="79000" />
       <workItem from="1501252607451" duration="80000" />
       <workItem from="1501252719262" duration="1879000" />
-      <workItem from="1501285374503" duration="32741000" />
+      <workItem from="1501285374503" duration="32891000" />
     </task>
     <task id="LOCAL-00001" summary="complete first page">
       <created>1501307820454</created>
@@ -159,7 +160,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34779000" />
+    <option name="totallyTimeSpent" value="34929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,9 +172,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="209" width="1208" height="1004" extended-state="0" />
+    <frame x="532" y="209" width="1208" height="1004" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28271812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28271812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953104" sideWeight="0.4977109" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953104" sideWeight="0.50228906" order="7" side_tool="true" content_ui="tabs" />
@@ -326,14 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mission 15/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="360" column="40" lean-forward="false" selection-start-line="360" selection-start-column="40" selection-end-line="360" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mission 15/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -352,6 +346,14 @@
             <element signature="e#7354#7360#0" expanded="true" />
             <element signature="e#7360#7366#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mission 15/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="352" column="23" lean-forward="false" selection-start-line="352" selection-start-column="23" selection-end-line="352" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
