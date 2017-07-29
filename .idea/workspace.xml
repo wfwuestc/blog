@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb105b49-ae21-4943-8e76-9f81df9e8eb9" name="Default" comment="complete first page">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mission 15/main.css" afterPath="$PROJECT_DIR$/mission 15/main.css" />
-    </list>
+    <list default="true" id="bb105b49-ae21-4943-8e76-9f81df9e8eb9" name="Default" comment="complete first page" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -63,7 +61,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="532" />
     <option name="y" value="209" />
     <option name="width" value="1208" />
@@ -147,7 +145,7 @@
       <workItem from="1501252411551" duration="79000" />
       <workItem from="1501252607451" duration="80000" />
       <workItem from="1501252719262" duration="1879000" />
-      <workItem from="1501285374503" duration="32891000" />
+      <workItem from="1501285374503" duration="32930000" />
     </task>
     <task id="LOCAL-00001" summary="complete first page">
       <created>1501307820454</created>
@@ -160,7 +158,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34929000" />
+    <option name="totallyTimeSpent" value="34968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -172,7 +170,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="209" width="1208" height="1004" extended-state="1" />
+    <frame x="532" y="209" width="1208" height="1004" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28271812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
