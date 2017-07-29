@@ -1,16 +1,91 @@
-header {
-    height: 60px;
-}
-.bar {
-    border:1px solid;
-    margin: 10px;
-    display: inline-block;
-}
-.nav {
-    border:1px solid;
-    float: right;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+header {
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nav {
+    float: right;
+    margin-top: 4px;
+}
+.bar {
+    background-color: rgba(5, 5, 5, 0.8);
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+.bar p {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    color: yellow;
+}
 .nav li {
+    list-style: none;
     float: left;
+    margin-right: 50px;
+    padding: 10px;
+}
+.nav li:last-child {
+    margin-right: 100px;
+}
+.nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: yellow;
+}
+
+.nav a:hover {
+    color: #aa2e20;
+}
+
+.mainpage {
+    height: 900px;
+    background: url(https://i.loli.net/2017/07/29/597bdc7dd5c47.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.mainpage p:first-child {
+    padding-top: 100px;
+}
+.mainpage p {
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 28px;
+    color: #ece451;
+}
+
+.mainpage p:nth-child(5) {
+    color: red;
+    font-style: italic;
+}
+
+.mainpage img {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    width: 260px;
+}
+
+.mainpage a {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #e4393c;
+    width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.mainpage a:hover {
+    opacity: 0.8;
 }
