@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb105b49-ae21-4943-8e76-9f81df9e8eb9" name="Default" comment="complete first page">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mission 15/index.html" afterPath="$PROJECT_DIR$/mission 15/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mission 15/main.css" afterPath="$PROJECT_DIR$/mission 15/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mission 15/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="194" column="23" lean-forward="false" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+            <state relative-caret-position="348">
+              <caret line="182" column="14" lean-forward="false" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -173,7 +171,7 @@
       <workItem from="1501252719262" duration="1879000" />
       <workItem from="1501285374503" duration="33421000" />
       <workItem from="1501375126886" duration="829000" />
-      <workItem from="1501376463716" duration="782000" />
+      <workItem from="1501376463716" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="complete first page">
       <created>1501307820454</created>
@@ -186,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37070000" />
+    <option name="totallyTimeSpent" value="37428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mission 15/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="194" column="23" lean-forward="false" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+        <state relative-caret-position="348">
+          <caret line="182" column="14" lean-forward="false" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
           <folding />
         </state>
       </provider>
