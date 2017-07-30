@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    min-width: 1130px;
+}
 @font-face {
     font-family: 'iconfont';  /* project id 368770 */
     src: url('//at.alicdn.com/t/font_bvkydti5m6lxr.eot');
@@ -195,9 +197,34 @@ li>h3 {
     height: 185px;
     border-radius: 50%;
 }
+.hover-cover {
+    position: relative;
+    display: block;
+}
+.hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+    z-index: 1;
+    transition: all ease .5s;
+    opacity: 0;
+    text-align: center;
+    padding-top: 65px;
 
-.author img:hover {
-    transform: scale(1.2);
+}
+
+.hover:after {
+    content: '+';
+    display: block;
+    font-size: 40px;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    color: #fff;
+}
+.author .hover:hover {
+    opacity: 1;
 }
 
 .author .name {
@@ -221,7 +248,7 @@ li>h3 {
 .comment h1 {
     padding-bottom: 45px;
 }
-.reader img{
+.reader img {
     width: 156px;
     height: 156px;
     border: 7px solid #F1F1F1;
